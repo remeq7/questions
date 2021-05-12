@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  border: 1px solid black;
+  padding: 10px;
+  h2 {
+    margin-bottom: 5px;
+  }
+  h4 {
+    border-bottom: 1px solid red;
+    margin-bottom: 5px;
+    width: 40vh;
+  }
+  .pytanie {
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .rozwin {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .rozwin:hover {
+    color: red;
+  }
+
+  .invisible {
+    display: none;
+  }
+  .visible {
+    display: flex;
+  }
+}
